@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Header';
-import Body from './Body';
-import Footer from './Footer';
 
-const test = (
-    <h1>Hello World</h1>
-)
+function App() {
+    return (
+        <div id = 'root'>
+            <Header />
+        </div>
+    )
+}
 
+export default App;
 
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(test);
+ReactDOM.render(<Header />, document.getElementById('root'))

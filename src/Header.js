@@ -5,9 +5,10 @@ const Header = () => {
     <header>
       <nav className='headerNav'>
         <ul>
+          <li><a href="/">HOME</a></li>
           <li><a href="/">LEAGUES</a></li>
-          <li><a href="/about">MERCH</a></li>
-          <li><a href="/contact">TEAMS AND STATS</a></li>
+          <li><a href="/about">ALL TEAMS</a></li>
+          <li><a href="/contact">MERCH</a></li>
         </ul>
       </nav>
     </header>

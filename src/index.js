@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
+import Landing from './Landing';
 import Body from './Body';
 
 function App() {
     return (
         <>
-            <Header />
+            <Landing />
             
         </>
     )
@@ -14,4 +14,4 @@ function App() {
 
 export default App;
 
-ReactDOM.render(<Header />, document.getElementById('root'))
+ReactDOM.render(<Landing />, document.getElementById('root'))
